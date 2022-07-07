@@ -1,0 +1,9 @@
+pipelines:
+  - name: P_Bash_6832_001
+    steps:
+      - name: P_Bash_6832_001_1
+        type: Bash
+        execution:
+          onExecute:
+            - echo "hello"
+
